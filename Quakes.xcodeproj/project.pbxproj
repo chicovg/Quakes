@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6EBC7D1B73849700D82AD7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EBC7C1B73849700D82AD7 /* Constants.m */; };
+		7C6EBC801B796D1500D82AD7 /* QuakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EBC7F1B796D1500D82AD7 /* QuakeTableViewCell.m */; };
 		7CF01DDE1B70DC3500AC5DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DDD1B70DC3500AC5DA1 /* main.m */; };
 		7CF01DE11B70DC3500AC5DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DE01B70DC3500AC5DA1 /* AppDelegate.m */; };
-		7CF01DE41B70DC3500AC5DA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DE31B70DC3500AC5DA1 /* ViewController.m */; };
 		7CF01DE71B70DC3500AC5DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DE51B70DC3500AC5DA1 /* Main.storyboard */; };
 		7CF01DE91B70DC3500AC5DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */; };
 		7CF01DEC1B70DC3500AC5DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DEA1B70DC3500AC5DA1 /* LaunchScreen.xib */; };
 		7CF01DF81B70DC3500AC5DA1 /* QuakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DF71B70DC3500AC5DA1 /* QuakesTests.m */; };
+		7CF01E031B70DCF900AC5DA1 /* QuakesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01E021B70DCF900AC5DA1 /* QuakesTableViewController.m */; };
+		7CF01E051B70DD8C00AC5DA1 /* Quake.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01E041B70DD8C00AC5DA1 /* Quake.m */; };
+		7CF01E091B70DF7100AC5DA1 /* QuakesRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01E081B70DF7100AC5DA1 /* QuakesRestClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C6EBC7B1B73845E00D82AD7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7C6EBC7C1B73849700D82AD7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7C6EBC7E1B796D1500D82AD7 /* QuakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakeTableViewCell.h; sourceTree = "<group>"; };
+		7C6EBC7F1B796D1500D82AD7 /* QuakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuakeTableViewCell.m; sourceTree = "<group>"; };
 		7CF01DD81B70DC3500AC5DA1 /* Quakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF01DDC1B70DC3500AC5DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF01DDD1B70DC3500AC5DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CF01DDF1B70DC3500AC5DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF01DE01B70DC3500AC5DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7CF01DE21B70DC3500AC5DA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CF01DE31B70DC3500AC5DA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CF01DE61B70DC3500AC5DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CF01DEB1B70DC3500AC5DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CF01DF11B70DC3500AC5DA1 /* QuakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF01DF61B70DC3500AC5DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF01DF71B70DC3500AC5DA1 /* QuakesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakesTests.m; sourceTree = "<group>"; };
+		7CF01E011B70DCF900AC5DA1 /* QuakesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakesTableViewController.h; sourceTree = "<group>"; };
+		7CF01E021B70DCF900AC5DA1 /* QuakesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuakesTableViewController.m; sourceTree = "<group>"; };
+		7CF01E041B70DD8C00AC5DA1 /* Quake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quake.m; sourceTree = "<group>"; };
+		7CF01E061B70DDA600AC5DA1 /* Quake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quake.h; sourceTree = "<group>"; };
+		7CF01E071B70DE7C00AC5DA1 /* QuakesRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakesRestClient.h; sourceTree = "<group>"; };
+		7CF01E081B70DF7100AC5DA1 /* QuakesRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuakesRestClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,16 @@
 			children = (
 				7CF01DDF1B70DC3500AC5DA1 /* AppDelegate.h */,
 				7CF01DE01B70DC3500AC5DA1 /* AppDelegate.m */,
-				7CF01DE21B70DC3500AC5DA1 /* ViewController.h */,
-				7CF01DE31B70DC3500AC5DA1 /* ViewController.m */,
+				7CF01E011B70DCF900AC5DA1 /* QuakesTableViewController.h */,
+				7CF01E021B70DCF900AC5DA1 /* QuakesTableViewController.m */,
+				7C6EBC7E1B796D1500D82AD7 /* QuakeTableViewCell.h */,
+				7C6EBC7F1B796D1500D82AD7 /* QuakeTableViewCell.m */,
+				7CF01E061B70DDA600AC5DA1 /* Quake.h */,
+				7CF01E041B70DD8C00AC5DA1 /* Quake.m */,
+				7CF01E071B70DE7C00AC5DA1 /* QuakesRestClient.h */,
+				7CF01E081B70DF7100AC5DA1 /* QuakesRestClient.m */,
+				7C6EBC7B1B73845E00D82AD7 /* Constants.h */,
+				7C6EBC7C1B73849700D82AD7 /* Constants.m */,
 				7CF01DE51B70DC3500AC5DA1 /* Main.storyboard */,
 				7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */,
 				7CF01DEA1B70DC3500AC5DA1 /* LaunchScreen.xib */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF01DE41B70DC3500AC5DA1 /* ViewController.m in Sources */,
+				7C6EBC801B796D1500D82AD7 /* QuakeTableViewCell.m in Sources */,
+				7CF01E091B70DF7100AC5DA1 /* QuakesRestClient.m in Sources */,
 				7CF01DE11B70DC3500AC5DA1 /* AppDelegate.m in Sources */,
+				7CF01E051B70DD8C00AC5DA1 /* Quake.m in Sources */,
+				7CF01E031B70DCF900AC5DA1 /* QuakesTableViewController.m in Sources */,
 				7CF01DDE1B70DC3500AC5DA1 /* main.m in Sources */,
+				7C6EBC7D1B73849700D82AD7 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +442,7 @@
 				7CF01DFD1B70DC3500AC5DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF01DFE1B70DC3500AC5DA1 /* Build configuration list for PBXNativeTarget "QuakesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				7CF01E001B70DC3500AC5DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
