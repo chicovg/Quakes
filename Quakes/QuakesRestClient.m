@@ -18,7 +18,6 @@
     
     controller = clientDelegate;
     
-    //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *urlString = @"http://earthquake.usgs.gov/earthquakes/shakemap/rss.xml";
 
     NSLog(@"Sending Request to URL %@", urlString);
@@ -75,8 +74,8 @@
 
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)conn {
-    NSString *xml = [[NSString alloc] initWithData:quakeData encoding:NSUTF8StringEncoding];
-    NSLog(@"xml = %@", xml);
+    //NSString *xml = [[NSString alloc] initWithData:quakeData encoding:NSUTF8StringEncoding];
+    //NSLog(@"xml = %@", xml);
     
     results = [[NSMutableArray alloc] init];
     
@@ -86,7 +85,7 @@
     
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     
-    NSLog(@"blah");
+    NSLog(@"response loaded");
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {

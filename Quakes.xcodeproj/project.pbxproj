@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C65C96D1B84EC4600B980EA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C65C96C1B84EC4600B980EA /* Media.xcassets */; };
 		7C6EBC7D1B73849700D82AD7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EBC7C1B73849700D82AD7 /* Constants.m */; };
 		7C6EBC801B796D1500D82AD7 /* QuakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EBC7F1B796D1500D82AD7 /* QuakeTableViewCell.m */; };
 		7CF01DDE1B70DC3500AC5DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DDD1B70DC3500AC5DA1 /* main.m */; };
 		7CF01DE11B70DC3500AC5DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DE01B70DC3500AC5DA1 /* AppDelegate.m */; };
 		7CF01DE71B70DC3500AC5DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DE51B70DC3500AC5DA1 /* Main.storyboard */; };
-		7CF01DE91B70DC3500AC5DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */; };
 		7CF01DEC1B70DC3500AC5DA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF01DEA1B70DC3500AC5DA1 /* LaunchScreen.xib */; };
 		7CF01DF81B70DC3500AC5DA1 /* QuakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01DF71B70DC3500AC5DA1 /* QuakesTests.m */; };
 		7CF01E031B70DCF900AC5DA1 /* QuakesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01E021B70DCF900AC5DA1 /* QuakesTableViewController.m */; };
@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C65C96C1B84EC4600B980EA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7C6EBC7B1B73845E00D82AD7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		7C6EBC7C1B73849700D82AD7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		7C6EBC7E1B796D1500D82AD7 /* QuakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakeTableViewCell.h; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		7CF01DDF1B70DC3500AC5DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF01DE01B70DC3500AC5DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7CF01DE61B70DC3500AC5DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CF01DEB1B70DC3500AC5DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CF01DF11B70DC3500AC5DA1 /* QuakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF01DF61B70DC3500AC5DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				7C6EBC7B1B73845E00D82AD7 /* Constants.h */,
 				7C6EBC7C1B73849700D82AD7 /* Constants.m */,
 				7CF01DE51B70DC3500AC5DA1 /* Main.storyboard */,
-				7CF01DE81B70DC3500AC5DA1 /* Images.xcassets */,
+				7C65C96C1B84EC4600B980EA /* Media.xcassets */,
 				7CF01DEA1B70DC3500AC5DA1 /* LaunchScreen.xib */,
 				7CF01DDB1B70DC3500AC5DA1 /* Supporting Files */,
 			);
@@ -221,7 +221,7 @@
 			files = (
 				7CF01DE71B70DC3500AC5DA1 /* Main.storyboard in Resources */,
 				7CF01DEC1B70DC3500AC5DA1 /* LaunchScreen.xib in Resources */,
-				7CF01DE91B70DC3500AC5DA1 /* Images.xcassets in Resources */,
+				7C65C96D1B84EC4600B980EA /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,9 +28,14 @@
     
     if (nil != quake.time) {
         NSDateFormatter * formatter = [[NSDateFormatter alloc] init];
-        [formatter setDateFormat:@""];
+        [formatter setDateFormat:@"EEE, d MMM yyyy HH:mm:ss ZZZ"];
+        NSDate *date = [formatter dateFromString:quake.time];
+        
+        NSString *dateStr = [NSDateFormatter localizedStringFromDate:date
+                                       dateStyle:NSDateFormatterShortStyle
+                                       timeStyle:NSDateFormatterShortStyle];
+        self.datetime.text = dateStr;
     }
-    self.datetime.text = quake.time;
 }
 
 -(void) setMagnitudeColor: (double) value {
